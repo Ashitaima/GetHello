@@ -9,6 +9,6 @@ namespace Practica.Models
 
         public string firstname { get; set; } = null!;
         public string lastname { get; set; } = null!;
-        public string birthdate { get; set; }
+        public DateTimeOffset birthdate { get; set; }
     }
 }
