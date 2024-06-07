@@ -12,7 +12,7 @@ using Practica.Context;
 namespace Practica.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240604125449_InitialMigration")]
+    [Migration("20240607085728_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
